@@ -13,7 +13,7 @@ spec:
         app: binarycalculator
     spec:
       containers:
-        - image: SOFE-3980U-Lab3-RodneyStanislaus/binarycalculator
+        - image: northamerica-northeast2-docker.pkg.dev/golden-tower-415923/sofe3980u/binarycalculator
           name: binarycalculator
           ports:
             - containerPort: 3306
