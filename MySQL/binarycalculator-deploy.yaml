@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mysql-deployment
+  name: binarycalculator-deployment
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: mysql
+      app: binarycalculator
   template:
     metadata:
       labels:
-        app: mysql
+        app: binarycalculator
     spec:
       containers:
         - image: mysql/mysql-server
