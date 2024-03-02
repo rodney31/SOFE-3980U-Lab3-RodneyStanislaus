@@ -26,4 +26,4 @@ spec:
               value: Readings
           ports:
             - containerPort: 3306
-              name: mysql
+              name: binarycalculator
